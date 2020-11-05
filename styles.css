@@ -3,9 +3,22 @@
     margin: 5px;
     padding: 0;
 }
+html {
+    font-family: Helvetica, sans-serif;
+}
 
 .container-header {
     height: 50px;
     background-color: black;
     color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+a {
+    color: black;
+    text-decoration: none;
 }
