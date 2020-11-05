@@ -9,3 +9,8 @@
     background-color: black;
     color: whitesmoke;
 }
+
+.container-section {
+    display: flex;
+    justify-content: center;
+}
