@@ -3,6 +3,9 @@
     margin: 5px;
     padding: 0;
 }
+html {
+    font-family: Helvetica, sans-serif;
+}
 
 .container-header {
     height: 50px;
@@ -18,4 +21,15 @@ header {
 .container-section {
     display: flex;
     justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
